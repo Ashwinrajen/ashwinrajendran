@@ -21,7 +21,7 @@ body {
   background-size: cover;
   margin: 0;
   padding: 0;
-  font-family: helvetica, arial, tahoma, verdana;
+  font-family: "Quicksand", Arial, sans-serif;
   line-height: 20px;
   font-size: 14px;
   color: #726f77;
@@ -41,7 +41,7 @@ a {
 }
 
 h1, h2, h3, h4 {
-  font-family: "Dosis", arial, tahoma, verdana;
+  font-family: "Quicksand", Arial, sans-serif;
   font-weight: 500;
 }
 
@@ -60,7 +60,7 @@ header {
 header .logo {
   color: #ABD6DFFF;
   float: left;
-  font-family: "Dosis", arial, tahoma, verdana;
+  font-family: "Quicksand", Arial, sans-serif;
   font-size: 22px;
   font-weight: 500;
 }
@@ -74,11 +74,11 @@ header .social {
   float: right;
 }
 
-header .social .btn {
+/* header .social .btn {
   font-family: "Dosis";
   font-size: 14px;
   margin: 10px 5px;
-}
+} */
 
 #timeline {
   width: 100%;
@@ -93,7 +93,7 @@ header .social .btn {
   width: 3px;
   height: 100%;
   background: #ABD6DFFF;
-  left: 50%;
+  left: 65%;
   top: 0;
   position: absolute;
 }
@@ -116,7 +116,7 @@ header .social .btn {
   height: 50px;
   position: absolute;
   top: 0;
-  left: 50%;
+  left: 65%;
   overflow: hidden;
   margin-left: -23px;
   border-radius: 50%;
@@ -129,7 +129,7 @@ header .social .btn {
 }
 
 #timeline .timeline-item .timeline-content {
-  width: 45%;
+  width: 60%;
   background: #fff;
   padding: 20px;
   -ms-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
@@ -138,19 +138,19 @@ header .social .btn {
   transition: all 0.3s ease;
 }
 
-#timeline .timeline-item .timeline-content h2 {
+#timeline .timeline-item .timeline-content h3 {
   padding: 15px;
   background: #ABD6DFFF;
-  color: #fff;
+  color: rgb(0, 0, 0);
   margin: -20px -20px 0 -20px;
-  font-weight: 300;
+  font-weight: 200;
   border-radius: 3px 3px 0 0;
 }
 
 #timeline .timeline-item .timeline-content:before {
   content: "";
   position: absolute;
-  left: 45%;
+  left: 60%;
   top: 20px;
   width: 0;
   height: 0;
@@ -183,8 +183,8 @@ header .social .btn {
   font-size: 12px;
   border-radius: 5px;
   transition: background 0.3s ease;
-  -ms-box-shadow: 2px 2px 0 #f27c7c;
-  box-shadow: 2px 2px 0 #f27c7c;
+  /* -ms-box-shadow: 2px 2px 0 #f27c7c;
+  box-shadow: 2px 2px 0 #f27c7c; */
 }
 
 .btn:hover {
