@@ -1618,4 +1618,10 @@ body.offcanvas {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  
+
+  br {
+    content: "";
+    margin: 2em;
+    display: block;
+    font-size: 20%;
+  }
