@@ -1330,6 +1330,22 @@ body.offcanvas {
       background: #b0abdf;
       color: rgb(0, 0, 0); }
 
+      .btn-primary2-1 {
+        background: #71b8c6;
+        color: rgb(255, 255, 255);
+        border: 2px solid #71b8c6; 
+        border-radius: 12px; }
+        .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+          background: #71b8c6 !important;
+          border-color: #71b8c6 !important; }
+        .btn-primary.btn-outline {
+          background: transparent;
+          color: #71b8c6;
+          border: 2px solid #71b8c6; }
+          .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
+            background: #71b8c6;
+            color: rgb(0, 0, 0); }
+
 .btn-success {
   background: #5cb85c;
   color: #fff;
