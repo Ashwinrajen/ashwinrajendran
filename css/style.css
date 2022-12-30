@@ -544,8 +544,8 @@ body.offcanvas {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   background: #2c98f0;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1030,8 +1030,8 @@ body.offcanvas {
         background-position: center center;
         background-repeat: no-repeat;
         position: relative;
-        height: 200px;
-        width: 65%;
+        height: 180px;
+        width: 85%;
         display: block;
         margin-bottom: 30px; }
         .project_cert .desc {
@@ -1641,3 +1641,9 @@ body.offcanvas {
     display: block;
     font-size: 20%;
   }
+
+  div.project_image {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
