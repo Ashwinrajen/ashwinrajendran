@@ -1,22 +1,22 @@
  /* Style buttons */
  .btn_download {
-    background-color: rgb(137, 190, 243);
-    border: none;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    font-size: 15px;
-    border-radius: 30px;
-    width: 250px;
-    margin: 0;
-    position: absolute;
-    top: 64%;
-    left: 49%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    
-  }
+  background-color: rgb(137, 190, 243);
+  border: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 30px;
+  width: 250px;
+  margin: 0;
+  position: absolute;
+  top: 64%;
+  left: 49%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   
-  /* Darker background on mouse-over */
-  .btn_download:hover {
-    background-color: RoyalBlue;
-  } 
+}
+
+/* Darker background on mouse-over */
+.btn_download:hover {
+  background-color: RoyalBlue;
+} 
